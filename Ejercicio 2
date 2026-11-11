@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Ejercicio 2</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sergio">
+    </head>
+
+    <body>
+
+        <a href="www.google.com" target="_blank">Ir a Google</a>
+        <img src="imagen/imagen.png">
+        <ul>
+            <li>Gooogle</li>
+            <li>Edge</li>
+            <li>Opera</li>
+        </ul>
+        <button>
+            <a href="#Nosotros">Ir a Nosotros</a>
+        </button>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <id="Nosotros">
+        <h1>Nosotros</h1>
+    </body>
+
+</html>
