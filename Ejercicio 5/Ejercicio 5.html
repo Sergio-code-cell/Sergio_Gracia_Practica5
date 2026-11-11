@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sergio Gracia">
+        <title>Ejercicio 4</title>
+    </head>
+
+    <body>
+
+        <h1>Introduce tus datos</h1>
+
+        <form action="Ejercicio 5/mostrardatos.php" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+            <br>
+            <label>Contraseña</label>
+            <input type="password" name="contrasena">
+            <br>
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="fecha_nacimiento">
+            <br>
+            <label>Dirección</label>
+            <input type="text" name="direccion">
+            <br>
+            <label>Sexo</label>
+            <input type="radio" name="sexo" value="hombre"> Hombre
+            <input type="radio" name="sexo" value="mujer"> Mujer
+            <br>
+            <label>Color favorito</label>
+            <input type="checkbox" name="color" value="Negro"> Negro
+            <input type="checkbox" name="color" value="Blanco"> Blanco
+            <input type="checkbox" name="color" value="Rosa"> Rosa
+            <br>
+            <label>Curso</label>
+            <select name="curso">
+                <option value="Primero">Primero</option>
+                <option value="Segundo">Segundo</option>
+                <option value="Tercero">Tercero</option>
+            </select>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+            <button type="submit" formaction="guardar_datos.php" formmethod="post">Guardar datos</button>
+            <button type="button" onclick="alert('Todo genial')">Mensaje</button>
+        </form>
+
+    </body>
+
+</html>
