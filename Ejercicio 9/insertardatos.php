@@ -14,4 +14,6 @@ mysqli_query($conexion, $sql);
 
 echo "Tus datos han sido insertados correctamente";
 
+mysqli_close($conexion)
+
 ?>

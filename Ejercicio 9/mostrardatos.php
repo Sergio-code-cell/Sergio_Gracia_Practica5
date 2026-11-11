@@ -15,4 +15,6 @@ while ($fila = mysqli_fetch_array($resultado)) {
     echo "Nombre: " . $fila['nombre'] ." - Dirección: ";
 }
 
+mysqli_close($conexion)
+
 ?>

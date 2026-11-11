@@ -13,4 +13,6 @@ mysqli_query($conexion, $sql);
 
 echo "Tus datos se han borrado correctamente";
 
+mysqli_close($conexion)
+
 ?>

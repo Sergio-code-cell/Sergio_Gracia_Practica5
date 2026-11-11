@@ -14,4 +14,6 @@ mysqli_query($conexion, $sql);
 
 echo "Tus datos han sido cambiados correctamente";
 
+mysqli_close($conexion)
+
 ?>
